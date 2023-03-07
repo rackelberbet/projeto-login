@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    html, body{
+        background-image: linear-gradient(to top, #f5c1dea4, #fcf684dc) ;
+
+    }
+
+    section#login{
+        width: 80vw;
+        background-color: #FDDAEE;
+        box-shadow: 0px 0px 10px #ec20ab9d;
+        
+    }
+        
+    section#login > div#imagem{
+        float: left;
+        width: 40%;
+        height: 500px;
+        background: #FDDAEE url(../imagens/pexels-anna-shvets-4587959.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 0px;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 55%;
+        background-color: rgba(255, 255, 255, 0.507);
+        position: absolute;
+        top: 110px;
+        right: 20px;
+        border-radius: 15px;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        text-align: center;
+        color: #f03a86d5;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
+        font-size: 1em;
+    
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+
+    html, body{
+        background-image: linear-gradient(to top, #f5c1dea4, #fcf684dc) ;
+
+    }
+
+    section#login{
+        width: 950px;
+        background-color: #FDDAEE;
+        box-shadow: 0px 0px 10px #ec20ab9d;
+        
+    }
+        
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 500px;
+        background: #FDDAEE url(../imagens/pexels-anna-shvets-4588018.jpg) no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 45%;
+        background-color: rgba(255, 255, 255, 0.507);
+        position: absolute;
+        top: 90px;
+        right: 25px;
+        border-radius: 15px;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }   
+
+    div#formulario > p{
+        font-size: 1.2em;
+        text-indent: 15px;
+        
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        text-align: center;
+        color: #f03a86d5;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
+        font-size: 1em;
+    
+    }
+}

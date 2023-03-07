@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+
+            <div id="imagem">
+
+                <!--Imagem em CSS-->
+
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+
+                <p>Seja bem vindo(a)! Faça login para acessar sua conta e ter acesso ao ambiente de informações sobre a saúde de seu pet!</p>
+
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div class="campo">
+                        <label for="username"><span class="material-icons">person</span> </label>
+                        <input type="email" name="username" id="username" placeholder="Digite seu e-mail" required size="20" maxlength="30">
+                        
+
+                    </div>
+                        
+                    <div class="campo">
+                        <label for="password"><span class="material-icons">vpn_key</span></label>
+                        <input type="password" name="password" id="password" required minlength="8" maxlength="20" placeholder="Digite sua senha" autocomplete="current-password">
+                        
+                    </div>
+                
+                                                 
+                        <input type="submit" value="Entrar">
+                        <a href="#" class="button">Esqueceu a senha? </a>
+                    
+                
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <strong>Rackel Berbet</strong></p>
+    </footer>
+</body>
+</html>
